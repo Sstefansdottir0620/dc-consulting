@@ -1,0 +1,18 @@
+import React, { Component } from "react";
+// import "./App.css";
+import HeaderImage from "../images/city-scape02.svg";
+// import "./style.css";
+
+export class Header extends Component {
+  render() {
+    return (
+      <div>
+        <header className='header d-flex justify-content-center'>
+          <img width='100%' alt='city' src={HeaderImage} />
+        </header>
+      </div>
+    );
+  }
+}
+
+export default Header;
