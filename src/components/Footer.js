@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import DClogoWhite from "../images/DC logo - Web-White.svg";
-import linkedIcon from "../images/linked-icon.svg";
 // import copyright from "../images/copyright.png";
 
 export class Footer extends Component {

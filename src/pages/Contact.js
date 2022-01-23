@@ -74,7 +74,7 @@ function Contact() {
                 </p>
                 <p>
                   <i className='fa fa-comment'></i>{" "}
-                  <a href='mailto:info@dcmunicipalconsulting.com'target='_blank'>
+                  <a href='mailto:info@dcmunicipalconsulting.com'target='_blank' rel="noreferrer">
                     info@dcmunicipalconsulting.com
                   </a>
                 </p>

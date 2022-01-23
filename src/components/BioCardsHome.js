@@ -21,7 +21,7 @@ class BioCardsHome extends Component {
                 <p className='card-text'>
                   Molly has been engaged in municipal consulting for the past
                   eight years. Prior to forming DCMC, her key project
-                  experiences include...<a href=""><b>more</b></a>
+                  experiences include...<a href='/about'><b>more</b></a>
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@ class BioCardsHome extends Component {
                 <p className='card-text'>
                   For the past eight years, Katie has been engaged in municipal
                   consulting. Her professional project experience includes
-                  executive recruitment...
+                  executive recruitment...<a href='/about'><b>more</b></a>
                 </p>
               </div>
             </div>
