@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 function Contact() {
   return (
-    <div>
+    <div className="contact-env">
       <Navbar />
       <section id='contact' className='parallax-section'>
         <div id='home-container'className='container'>
@@ -74,7 +74,7 @@ function Contact() {
                 </p>
                 <p>
                   <i className='fa fa-comment'></i>{" "}
-                  <a href='mailto:info@dcmunicipalconsulting.com'target='_blank' rel="noreferrer">
+                  <a className="link-style" href='mailto:info@dcmunicipalconsulting.com'target='_blank' rel="noreferrer">
                     info@dcmunicipalconsulting.com
                   </a>
                 </p>

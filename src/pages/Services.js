@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 
 function Services() {
   return (
-    <div>
+    <div className="services-env">
       <Navbar />
-      <div className='container'>
+      <div id="services" className='container'>
         <br/>
         <h2>Services</h2>
       </div>

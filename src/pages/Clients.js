@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 
 function Clients() {
   return (
-  <div>
+  <div className="clients-env">
       <Navbar />
-      <div className='container'>
+      <div id="clients" className='container'>
         <br/>
         <h2>Clients</h2>
       </div>

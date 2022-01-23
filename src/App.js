@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="route-env">
         <Switch>
           <Route exact path='/'>
             <Home />

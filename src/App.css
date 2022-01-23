@@ -5,6 +5,10 @@ body {
   color: #666;
 }
 
+html, body, #root, .route-env {
+  height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -136,4 +140,45 @@ section {
 #contact button#submit:hover {
   background-color: rgb(14, 55, 87);
   color: #ffffff;
+}
+
+
+.link-style {
+
+  text-decoration: none;
+  color: #666;
+
+}
+
+.contact-env {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-env {
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact {
+  display: flex;
+  flex-grow: 1;
+}
+
+#services {
+  display: flex;
+  flex-grow: 1;
+}
+
+.clients-env{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#clients{
+  display: flex;
+  flex-grow: 1;
 }
