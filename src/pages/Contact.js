@@ -10,10 +10,10 @@ function Contact() {
       <section id='contact' className='parallax-section'>
         <div id='home-container'className='container'>
           <div className='row'>
-            <div className='col-md-12 col-sm-12'>
+            <div className='col-12'>
               <div className='wow fadeInUp section-title' data-wow-delay='0.2s'>
                 <br></br>
-                <h2>Get In Touch</h2>
+                <h2>Contact Us</h2>
               </div>
             </div>
 
@@ -74,7 +74,7 @@ function Contact() {
                 </p>
                 <p>
                   <i className='fa fa-comment'></i>{" "}
-                  <a href='mailto:info@company.com'>
+                  <a href='mailto:info@dcmunicipalconsulting.com'target='_blank'>
                     info@dcmunicipalconsulting.com
                   </a>
                 </p>

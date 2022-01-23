@@ -5,14 +5,15 @@ import Footer from "../components/Footer";
 
 function Clients() {
   return (
-
   <div>
       <Navbar />
-      <h1>Clients</h1>
+      <div className='container'>
+        <br/>
+        <h2>Clients</h2>
+      </div>
       <Footer />
-    </div>
-    
-  );
+  </div>
+  )
 }
 
-export default Clients;
+export default Clients

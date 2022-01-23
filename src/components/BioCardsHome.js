@@ -17,11 +17,11 @@ class BioCardsHome extends Component {
                 alt='Molly Deckert'
               />
               <div className='card-body'>
-                <h5 className='card-title'>Molly Deckert, Partner</h5>
+                <h1 className='card-title'>Molly Deckert, Partner</h1>
                 <p className='card-text'>
                   Molly has been engaged in municipal consulting for the past
                   eight years. Prior to forming DCMC, her key project
-                  experiences include.....
+                  experiences include...<a href=""><b>more</b></a>
                 </p>
               </div>
             </div>
@@ -34,7 +34,7 @@ class BioCardsHome extends Component {
                 alt='Katie Corder'
               />
               <div className='card-body'>
-                <h5 className='card-title'>Katie Corder, Partner</h5>
+                <h1 className='card-title'>Katie Corder, Partner</h1>
                 <p className='card-text'>
                   For the past eight years, Katie has been engaged in municipal
                   consulting. Her professional project experience includes

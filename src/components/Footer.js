@@ -1,21 +1,34 @@
 import React, { Component } from "react";
+import DClogoWhite from "../images/DC logo - Web-White.svg";
+import linkedIcon from "../images/linked-icon.svg";
 // import copyright from "../images/copyright.png";
 
 export class Footer extends Component {
   render() {
     return (
       <>
-        <footer
-          className='container-fluid d-flex bd-highlight justify-content-center'
-          style={{ height: "200px", background:"#f1f1f1"}}>
-          {/* <div className='social-icon d-flex align-items-center'>
-          <img src={twitterIcon} width='20' height='20' alt='twitter' />
-          <img src={faceIcon} width='20' height='25' alt='facebook' />
-          <img src={instaIcon} width='20' height='20' alt='instagram' />
-        </div> */}
-          <div id='copyright'>
-            copyright
-            <font>&copy;</font>
+        <footer className='container-fluid bd-highlight' style={{ height: "200px", background:"#666"}}>
+          <div className='mx-5 px-5'>
+            <div className='row'>
+              <div className='col-10 py-5'>
+                <a className='navbar-brand' href='/'>
+                  <img
+                    src={DClogoWhite}
+                    alt=''
+                    width='150'
+                    class='d-inline-block'
+                  />
+                </a>
+              </div>
+              <div className="col-2 py-5">
+                <p className="text-right m-0">Your trust in us, will be your success.</p>
+              </div>
+            </div>
+            <div className='row justify-content-center'>
+              <div id='copyright'>
+                © 2022 DC Municipal Consulting
+              </div>
+            </div>
           </div>
         </footer>
       </>

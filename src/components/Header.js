@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-// import "./App.css";
 import HeaderImage from "../images/city-scape02.svg";
-// import "./style.css";
 
 export class Header extends Component {
   render() {

@@ -2,6 +2,7 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #666;
 }
 
 code {
@@ -28,7 +29,8 @@ code {
   opacity: 0.9;
   margin-bottom: 1rem;
   font-size: 15pt;
-  /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  color: #666;
 }
 
 .navbar-nav {
@@ -46,6 +48,7 @@ code {
 }
 footer {
   background-color: #8f9294;
+  color: #ffffff;
 }
 
 .social-icon {
@@ -65,23 +68,32 @@ footer {
 
 
 h1 {
-  font-size: 25pt;
+  font-size: 13pt;
+  font-weight: bold;
+  color: rgb(14, 55, 87);
+}
+
+h2 {
+  font-size: 40pt;
+  font-weight: bold;
+  color: rgb(14, 55, 87);
 }
 
 h5 {
-  font-size: 15pt;
+  font-size: 20pt;
   font-weight: bold;
   color: rgb(14, 55, 87);
 }
 
 section {
   font-size: 12pt;
+  color: #666;
 }
 
 .header {
   width: 100%;
   max-height: 200px;
-  /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.19);
   margin-top: 0px;
   /* background-size: cover;
   background-position: center;

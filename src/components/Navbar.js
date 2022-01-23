@@ -1,15 +1,13 @@
 import React, { Component } from "react";
-import DClogo from "../images/DC.svg";
+import DClogo from "../images/DC logo-Web.svg";
 import linkedIcon from "../images/linked-icon.svg";
 import faceIcon from "../images/facebook-icon.svg";
 import instaIcon from "../images/insta-icon.svg";
-import Header from "../components/Header";
 
 export class Navbar extends Component {
   render() {
     return (
       <div>
-        <Header/>
         <div
           className='row justify-content-end m-0'
           style={{ height: "50px", backgroundColor: "#0E3757" }}>
@@ -20,14 +18,14 @@ export class Navbar extends Component {
           </div>
         </div>
         <nav className='row navbar navbar-expand-lg navbar-light justify-content-between m-0 mb-3'
-        style={{backgroundColor: "#f1f1f1" }}>
+        style={{backgroundColor: "#ffffff" }}>
           <div className='col-3'>
             <a className='navbar-brand' href='/'>
               <img
                 src={DClogo}
                 alt=''
-                width='320'
-                height='120'
+                width='200'
+                height='100'
                 class='d-inline-block align-text-top'
               />
             </a>

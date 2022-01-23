@@ -7,6 +7,7 @@ function About() {
   return (
     <div>
       <Navbar />
+      
       <div className='container-fluid'>
         <BioCards />
       </div>

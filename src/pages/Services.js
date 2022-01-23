@@ -6,10 +6,11 @@ function Services() {
   return (
     <div>
       <Navbar />
-      <div className='container-fluid'>
-        <h1>Services</h1>
-        <Footer />
+      <div className='container'>
+        <br/>
+        <h2>Services</h2>
       </div>
+      <Footer />
     </div>
   );
 }
