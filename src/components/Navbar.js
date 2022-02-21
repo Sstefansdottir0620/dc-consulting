@@ -17,7 +17,7 @@ export class Navbar extends Component {
             <img src={instaIcon} width='30' height='30' alt='instagram' />
           </div>
         </div>
-        <nav className='row navbar navbar-expand-lg navbar-light justify-content-between m-0 mb-3'
+        <nav className='row navbar navbar-expand-lg navbar-light justify-content-between m-0'
         style={{backgroundColor: "#ffffff" }}>
           <div className='col-3'>
             <a className='navbar-brand' href='/'>

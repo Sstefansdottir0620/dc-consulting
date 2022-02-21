@@ -2,21 +2,20 @@ import React from "react";
 import Navbar from "../components/Navbar";
 // import "./contact.css";
 import Footer from "../components/Footer";
+import ServicesMain from "../images/services-main.png";
 
 function Contact() {
   return (
     <div className="contact-env">
       <Navbar />
-      <section id='contact' className='parallax-section'>
-        <div id='home-container'className='container'>
+      <section id='contact' className='contact-main-container'>
+        <div className="row">
+          <img src={ServicesMain} className="service-main-img" alt="service-main"></img>
+            <br />
+          <h2 className="top-left">Contact Us</h2>
+        </div>
+        <div className='container'>
           <div className='row'>
-            <div className='col-12'>
-              <div className='wow fadeInUp section-title' data-wow-delay='0.2s'>
-                <br></br>
-                <h2>Contact Us</h2>
-              </div>
-            </div>
-
             <div className='col-md-7 col-sm-10'>
               <div className='wow fadeInUp' data-wow-delay='0.4s'>
                 <form id='contact-form' action='#' method='get'>
@@ -70,7 +69,7 @@ function Contact() {
                 </div>
 
                 <p>
-                  <i className='fa fa-map-marker'></i> Texas, USA
+                  <i className='fa fa-map-marker'></i>
                 </p>
                 <p>
                   <i className='fa fa-comment'></i>{" "}

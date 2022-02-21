@@ -42,9 +42,9 @@ code {
   margin-right: 2rem;
 }
 
-#copyright {
+.copyright {
   height: 50px;
-  font-size: 14pt;
+  font-size: 12pt;
   text-align: center;
   /* box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.19); */
   padding: 15px;
@@ -81,12 +81,21 @@ h2 {
   font-size: 40pt;
   font-weight: bold;
   color: rgb(14, 55, 87);
+
 }
 
 h5 {
   font-size: 20pt;
   font-weight: bold;
   color: rgb(14, 55, 87);
+}
+
+h6 {
+  font-size: 35pt;
+  font-weight: bold;
+  color: rgb(14, 55, 87);
+  text-align: center;
+  text-shadow: #999999;
 }
 
 section {
@@ -164,6 +173,7 @@ section {
 
 #contact {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
 }
 
@@ -181,4 +191,27 @@ section {
 #clients{
   display: flex;
   flex-grow: 1;
+}
+
+.top-left {
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  left: 40px;
+  color: white;
+}
+.service-main-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.contact-main-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.margin {
+  margin-top: 20pt;
 }
