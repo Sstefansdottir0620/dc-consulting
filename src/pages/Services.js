@@ -30,31 +30,31 @@ function Services() {
               </div>
               <div className="col-sm-4 margin">
                 <div className="row justify-content-center">
-                  <img src="place-holder"></img>
+                  <img src="place-holder" alt="HumanResources"></img>
                 </div>
                 <div className="row justify-content-center">Description of service</div>
               </div>
               <div className="col-sm-4 margin">
                 <div className="row justify-content-center">
-                  <img src="place-holder"></img>
+                  <img src="place-holder" alt="HumanResources"></img>
                 </div>
                 <div className="row justify-content-center">Description of service</div>
               </div>
               <div className="col-sm-4 margin">
                 <div className="row justify-content-center">
-                  <img src="place-holder"></img>
+                  <img src="place-holder" alt="HumanResources"></img>
                 </div>
                 <div className="row justify-content-center">Description of service</div>
               </div>
               <div className="col-sm-4 margin">
                 <div className="row justify-content-center">
-                  <img src="place-holder"></img>
+                  <img src="place-holder" alt="HumanResources"></img>
                 </div>
                 <div className="row justify-content-center">Description of service</div>
               </div>
               <div className="col-sm-4 margin">
                 <div className="row justify-content-center">
-                  <img src="place-holder"></img>
+                  <img src="place-holder" alt="HumanResources"></img>
                 </div>
                 <div className="row justify-content-center">Description of service</div>
               </div>
