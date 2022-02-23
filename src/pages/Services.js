@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import ServicesMain from "../images/services-main.png";
+import HomeMain from "../images/home-main-image.png";
 import HR from "../images/HR-photo.png";
 
 function Services() {
@@ -10,10 +10,10 @@ function Services() {
       <Navbar />
       <div id="services" className="service-main-container">
         <section className="w-100">
-          <div className="row">
-            <img src={ServicesMain} className="service-main-img" alt="service-main"></img>
+          <div className="row" id='shadow'>
+            <img src={HomeMain} className="home-main-img" alt="service-main"></img>
             <br />
-            <h2 className="top-left">Services</h2>
+            <h2 className="top-left-services">Clients and Services</h2>
           </div>
           <div className="container">
             <div className="row justify-content-between">

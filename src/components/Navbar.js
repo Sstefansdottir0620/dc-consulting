@@ -42,14 +42,14 @@ export class Navbar extends Component {
                   <a
                     className='nav-item nav-link alignt-right'
                     href='/services'>
-                    Services
+                    Clients/Services
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className='nav-item nav-link' href='/clients'>
                     Clients
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a className='nav-item nav-link' href='/contact'>
                     Contact Us
