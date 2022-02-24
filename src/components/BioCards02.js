@@ -7,10 +7,10 @@ class BioCards02 extends Component {
     return (
       <div className="container">
         <div className="row justify-content-between my-5">
-            <div className="col-6">
-                <img src={Profile01} className="card-img-top" alt="Molly Deckert" />
+            <div className="col-md-6">
+                <img src={Profile01} className="card-img-top py-3 py-md-0" alt="Molly Deckert" />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
                 <h5>Molly Deckert, Partner</h5>
                 <p className="card-text">
                   Molly Deckert has provided consulting services to
@@ -40,14 +40,14 @@ class BioCards02 extends Component {
             </div>
         </div>
         <div className="row mb-5">
-            <div className="col-6">
+            <div className="col-md-6">
               <img
                 src={Profile02}
-                className="card-img-top"
+                className="card-img-top py-3 py-md-0"
                 alt="Katie Corder"
               />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
                 <h5 className="card-title">Katie Corder, Partner</h5>
                 <p className="card-text">
                   For the past ten years, Katie has been engaged in municipal

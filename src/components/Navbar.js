@@ -9,7 +9,7 @@ export class Navbar extends Component {
     return (
       <div>
         <div
-          className='row justify-content-md-end justify-content-center'
+          className='row justify-content-md-end justify-content-center m-0'
           style={{ height: "50px", backgroundColor: "#0E3757" }}>
           <div className='social-icon d-flex align-items-center pr-md-5 pr-0'>
             <img src={linkedIcon} width='30' height='30' alt='twitter' />
@@ -19,14 +19,14 @@ export class Navbar extends Component {
         </div>
         <nav className='row navbar navbar-expand-lg navbar-light justify-content-between m-0 px-0 px-md-4'
         style={{backgroundColor: "#ffffff" }}>
-          <div className='col-md-3 text-center text-md-left'>
+          <div className='col-md-3 text-center text-md-start'>
             <a className='navbar-brand' href='/'>
               <img
                 src={DClogo}
                 alt=''
                 width='200'
                 height='100'
-                class='d-inline-block align-text-top'
+                className='d-inline-block align-text-top'
               />
             </a>
           </div>
@@ -50,7 +50,7 @@ export class Navbar extends Component {
                     Clients
                   </a>
                 </li> */}
-                <li>
+                <li className='col nav-item p-0'>
                   <a className='nav-item nav-link' href='/contact'>
                     Contact Us
                   </a>

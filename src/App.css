@@ -77,8 +77,13 @@ footer {
 }
 
 .body-text{
-  font-size: larger;
+  font-size: calc(0.4vw + 0.8rem);
 }
+
+.card-text{
+  font-size: calc(0.4vw + 0.8rem);
+}
+
 h1 {
   font-size: 15pt;
   font-weight: bold;
@@ -210,9 +215,6 @@ section {
 
 .top-left {
   position: absolute;
-  text-align: left;
-  top: 60px;
-  padding-left: 90px;
 }
 
 .service-main-container {
@@ -263,6 +265,14 @@ section {
 } */
 
 .city-logo {
+  text-align: center;
+  padding: 1rem;
 }
 
+.header-text {
+  font-size: calc(3.5vw + 0.3rem);
+}
 
+.header-text-lg {
+  font-size: calc(4vw + 1rem);
+}

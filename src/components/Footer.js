@@ -9,7 +9,7 @@ export class Footer extends Component {
         <footer className='container-fluid bd-highlight' style={{background:"#666"}}>
           <div className='mx-1 px-1 mx-md-5 px-md-5'>
             <div className='row'>
-              <div className='col-md-7 py-md-5 pt-4 pb-1 text-center text-md-left'>
+              <div className='col-md-7 py-md-5 pt-4 pb-1 text-center text-md-start'>
                 <a className='navbar-brand m-0'  href='/'>
                   <img
                     src={DClogoWhite}
