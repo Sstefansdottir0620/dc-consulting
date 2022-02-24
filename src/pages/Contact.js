@@ -27,10 +27,10 @@ function Contact() {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-7 col-sm-10">
+            <div className="col-md-8 col-sm-10">
               <div className="wow fadeInUp" data-wow-delay="0.4s">
                 <form id="contact-form" action="#" method="get">
-                  <div className="col-12">
+                  <div className="col-8">
                     <input
                       type="text"
                       className="form-control"
@@ -40,7 +40,7 @@ function Contact() {
                       onInput={(e) => setSubject(e.target.value)}
                     />
                   </div>
-                  <div className="col-12">
+                  <div className="col-8">
                     <textarea
                       className="form-control"
                       rows="5"
@@ -65,7 +65,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className="col-md-5 col-sm-8">
+            <div className="col-md-4 col-sm-8">
               <div className="contact-info" data-wow-delay="0.4s">
                 <div className="row contact-info">
                 <h1>Katie Corder, Partner</h1>

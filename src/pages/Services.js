@@ -4,6 +4,10 @@ import Footer from "../components/Footer";
 import HomeMain from "../images/home-main-image.png";
 import Abilene from "../images/abilene-logo.png";
 import BalchSprings from "../images/balchsprings-logo.png";
+import Fate from "../images/fate-logo.png";
+import Forny from "../images/forny-logo.png";
+import Heath from "../images/heath-logo.png";
+import Josephine from "../images/josephine-logo.png";
 import HR from "../images/HR-photo.png";
 
 function Services() {
@@ -19,16 +23,16 @@ function Services() {
           <div className="container">
             <div className='row mt-5 justify-content-center'>
               <div className='col-3 city-logo'><a href='https://www.abilenetx.gov' target='blank'><img src={Abilene} alt="abileneLogo"></img></a></div>
-              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
-              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
-              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="balchLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://www.fatetx.gov' target='blank'><img src={Fate} alt="fateLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://www.forneytx.gov' target='blank'><img src={Forny} alt="fornyLogo"></img></a></div>
               
               </div>
               <div className='row mt-5 justify-content-center'>
-              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
-              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
-              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
-              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='http://www.heathtx.com' target='blank'><img src={Heath} alt="heathLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://www.cityofjosephinetx.com' target='blank'><img src={Josephine} alt="josephineLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt=""></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt=""></img></a></div>
             </div>
           </div>
             <div className="row justify-content-between">

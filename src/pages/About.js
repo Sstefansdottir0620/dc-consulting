@@ -13,7 +13,7 @@ function About() {
           <div className="row mb-5" id="shadow">
             <img src={AboutMain} className="about-main-img" alt="about-main"></img>
             <br />
-            <h2 className="top-left">About Us</h2>
+            <h2 className="top-left text-white">About Us</h2>
           </div>
           </section>
         <div className='container justify-content-center' style={{ width: "1000px" }}>
