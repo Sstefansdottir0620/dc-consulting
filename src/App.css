@@ -39,9 +39,12 @@ code {
 
 .navbar-nav {
   width: auto;
-  margin-right: 2rem;
 }
 
+.nav-item {
+  font-size: calc(0.5vw + 0.8rem);
+  text-align: center;
+}
 .copyright {
   height: 50px;
   font-size: 12pt;
@@ -58,10 +61,8 @@ footer {
 .social-icon {
   list-style: none;
   display: inline;
-  margin-left: 7px;
   justify-items: end;
   width: auto;
-  margin-right: 4rem;
 }
 
 .social-icon img {

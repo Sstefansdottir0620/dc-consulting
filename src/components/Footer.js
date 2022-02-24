@@ -6,22 +6,21 @@ export class Footer extends Component {
   render() {
     return (
       <>
-        <footer className='container-fluid bd-highlight' style={{ height: "200px", background:"#666"}}>
-          <div className='mx-5 px-5'>
+        <footer className='container-fluid bd-highlight' style={{background:"#666"}}>
+          <div className='mx-1 px-1 mx-md-5 px-md-5'>
             <div className='row'>
-              <div className='col-7 py-5'>
-                <a className='navbar-brand' href='/'>
+              <div className='col-md-7 py-md-5 pt-4 pb-1 text-center text-md-left'>
+                <a className='navbar-brand m-0'  href='/'>
                   <img
                     src={DClogoWhite}
                     alt=''
                     width='170'
-                    class='d-inline-block'
+                    className='d-inline-block'
                   />
                 </a>
               </div>
-              <div className="col-5 py-5">
-                <div className='row'>
-                <p className="text-right copyright m-0">Every city has a story. Let DCMC help you write it.</p></div>
+              <div className="col-md-5 py-md-5 pb-3 py-2">
+                <p className="text-right copyright m-0">Every city has a story. Let DCMC help you write it.</p>
               </div>
             </div>
             <div className='row justify-content-center'>
