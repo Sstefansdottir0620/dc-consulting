@@ -6,7 +6,7 @@ class BioCards extends Component {
   render() {
     return (
       <div
-        className='container-fluid justify-content-between'
+        className='container justify-content-between'
         style={{ width: "1000px" }}>
         <div className='row row-cols-1 row-cols-md-2 g-4'>
           <div className='col'>

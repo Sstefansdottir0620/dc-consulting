@@ -1,29 +1,26 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import BioCards from "../components/BioCards";
+import BioCards02 from "../components/BioCards02";
+import AboutMain from "../images/about-main-image.png";
 
 function About() {
   return (
-    <div>
+    <div className='about-env'>
       <Navbar />
-      
-      <div className='container-fluid row justify-content-center'>
-      <div className='row justify-content-center margin'
-        style={{ width: "1000px" }}>
-        <h2 class="px-4 mx-1">About Us</h2>
-              < section className='row justify-content-center'>
-                <span>
-                DC Municipal Consulting (DCMC) was formed in August of 2017 as a women-owned firm specializing in consulting for local governments. DCMC has completed projects focusing on human resource management, executive recruitment, compensation and pay plan development, and policy development, including:
-
-                </span>
-            </section>
-            </div>
-
-        <BioCards />
+      <div id='about' className="about-main-container">
+        <section className="w-100 p-0 mb-5">
+          <div className="row m-0" id="shadow">
+            <img src={AboutMain} className="about-main-img p-0" alt="about-main"></img>
+            <br />
+            <h2 className="top-left text-white">About Us</h2>
+          </div>
+        </section>
+        <BioCards02 />
       </div>
       <Footer />
     </div>
+
   );
 }
 
