@@ -5,7 +5,7 @@ export class Header extends Component {
   render() {
     return (
       <div>
-        <header className='header d-flex justify-content-center'>
+        <header className='mt-5 d-flex justify-content-center'>
           <img width='100%' alt='city' src={HeaderImage} />
         </header>
       </div>

@@ -5,15 +5,13 @@ import Profile02 from "../images/profile02.jpg";
 class BioCards02 extends Component {
   render() {
     return (
-      <div
-        className="container"
-        style={{ width: "1000px" }}
-      >
-        <div className="row justify-content-between">
-          <div className="col-6">
-            <img src={Profile01} className="card-img-top" alt="Molly Deckert" />
+      <div className="container">
+        <div className="row justify-content-between my-5">
             <div className="col-6">
-            <h5>Molly Deckert, Partner</h5>
+                <img src={Profile01} className="card-img-top" alt="Molly Deckert" />
+            </div>
+            <div className="col-6">
+                <h5>Molly Deckert, Partner</h5>
                 <p className="card-text">
                   Molly Deckert has provided consulting services to
                   municipalities for ten years. Prior to forming DCMC, her key
@@ -39,16 +37,17 @@ class BioCards02 extends Component {
                   Wisconsin-La Crosse. She also attended the Senior Executive
                   Institute at the University of Virginia.
                 </p>
-              </div>
-          </div>
-          <div className="row">
+            </div>
+        </div>
+        <div className="row mb-5">
             <div className="col-6">
               <img
                 src={Profile02}
                 className="card-img-top"
                 alt="Katie Corder"
               />
-              <div className="col-6">
+            </div>
+            <div className="col-6">
                 <h5 className="card-title">Katie Corder, Partner</h5>
                 <p className="card-text">
                   For the past ten years, Katie has been engaged in municipal
@@ -74,11 +73,9 @@ class BioCards02 extends Component {
                   the University of Tulsa and a Master of Public Administration
                   degree from the University of Kansas.
                 </p>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     );
   }
 }

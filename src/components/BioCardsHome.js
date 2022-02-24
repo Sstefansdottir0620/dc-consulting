@@ -9,7 +9,7 @@ class BioCardsHome extends Component {
         className='container-fluid justify-content-between'
         style={{ width: "1000px" }}>
         <div className='row'>
-          <div className='col p-4 ml-4'>
+          <div className='col ml-4'>
             <div class='card p-4'>
               <img
                 src={Profile01}
@@ -26,7 +26,7 @@ class BioCardsHome extends Component {
               </div>
             </div>
           </div>
-          <div className='col p-4 ml-4'>
+          <div className='col ml-4'>
             <div className='card p-4'>
               <img
                 src={Profile02}

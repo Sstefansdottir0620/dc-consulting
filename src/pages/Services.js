@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HomeMain from "../images/home-main-image.png";
+import Abilene from "../images/abilene-logo.png";
+import BalchSprings from "../images/balchsprings-logo.png";
 import HR from "../images/HR-photo.png";
 
 function Services() {
@@ -14,10 +16,23 @@ function Services() {
             <img src={HomeMain} className="home-main-img" alt="service-main"></img>
             <br />
             <h2 className="top-left-services">Clients and Services</h2>
-          </div>
           <div className="container">
+            <div className='row mt-5 justify-content-center'>
+              <div className='col-3 city-logo'><a href='https://www.abilenetx.gov' target='blank'><img src={Abilene} alt="abileneLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+              
+              </div>
+              <div className='row mt-5 justify-content-center'>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+              <div className='col-3 city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="abileneLogo"></img></a></div>
+            </div>
+          </div>
             <div className="row justify-content-between">
-              <div className="col-sm-4 margin">
+              <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
                   <div className="col">
                     <img src={HR} alt="HumanResources"></img>
@@ -28,7 +43,7 @@ function Services() {
                   <p>Here is the description!</p>
                 </div>
               </div>
-              <div className="col-sm-4 margin">
+              <div className="col-sm-4">
                 <div className="row justify-content-center">
                   <img src="place-holder" alt="HumanResources"></img>
                 </div>

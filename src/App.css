@@ -220,13 +220,12 @@ section {
   position: absolute;
   text-align: left;
   top: 60px;
-  left: 90px;
+  padding-left: 90px;
   color: white;
 }
 .service-main-container {
   position: relative;
   text-align: left;
-  color: white;
 }
 
 .contact-main-container {
@@ -238,7 +237,6 @@ section {
 .contact-info{
   margin-top: 20pt;
   font-size: 13pt;
-  align-content: space-between;
 
 }
 
@@ -262,7 +260,6 @@ section {
 .about-main-container {
   position: relative;
   text-align: left;
-  color: white;
 }
 
 .margin {
@@ -272,3 +269,13 @@ section {
 #shadow{
   box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.20);
 }
+
+.city-logo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+
