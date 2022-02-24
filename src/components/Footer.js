@@ -6,7 +6,7 @@ export class Footer extends Component {
   render() {
     return (
       <>
-        <footer className='container-fluid bd-highlight' style={{ height: "200px", background:"#666"}}>
+        <footer className='container-fluid bd-highlight' style={{ background:"#666"}}>
           <div className='mx-5 px-5'>
             <div className='row'>
               <div className='col-7 py-5'>

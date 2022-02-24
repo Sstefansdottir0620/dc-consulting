@@ -10,11 +10,11 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <div className="row justify-content-center">
-        <section className="w-100">
-          <div className="row home-main-container" id="shadow">
-            <img src={HomeMain2} alt="home-main"></img>
-            <h2 className="top-left w-100">
+      <div className="row m-0 justify-content-center">
+        <section className="w-100 p-0">
+          <div className="row home-main-container m-0" id="shadow">
+            <img src={HomeMain2} alt="home-main" className="p-0"></img>
+            <h2 className="top-left text-white w-100">
               Your people, your process, <br></br>your strategies, your
               synergies…
             </h2>
@@ -41,9 +41,10 @@ function Home() {
             </p>
 
             <BioCardsHome />
-            <Header />
+            
           </section>
         </div>
+        <Header />
       </div>
       <Footer />
     </div>

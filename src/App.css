@@ -33,7 +33,7 @@ code {
   opacity: 0.9;
   margin-bottom: 1rem;
   font-size: 15pt;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 2px 0 rgba(0, 0.2, 0, 0);
   color: #666;
 }
 
@@ -46,7 +46,6 @@ code {
   height: 50px;
   font-size: 12pt;
   text-align: center;
-  /* box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.19); */
   padding: 15px;
   color: white;
 }
@@ -114,11 +113,6 @@ section {
 .header {
   width: 100%;
   max-height: 200px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 0px;
-  /* background-size: cover;
-  background-position: center;
-  position: relative; */
 }
 
 .fa {
@@ -209,20 +203,17 @@ section {
   flex-grow: 1;
 }
 
-.top-left-services {
-  position: absolute;
-  text-align: left;
-  top: 60px;
-  left: 90px;
+.blue {
   color: rgb(14, 55, 87);
 }
+
 .top-left {
   position: absolute;
   text-align: left;
   top: 60px;
   padding-left: 90px;
-  color: white;
 }
+
 .service-main-container {
   position: relative;
   text-align: left;
@@ -266,16 +257,11 @@ section {
   margin-top: 40pt;
 }
 
-#shadow{
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.20);
-}
+/* #shadow{
+  box-shadow: 0 0px 2px 0px rgba(0, 0, 0, 0.20);
+} */
 
 .city-logo {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-    height: 150px;
 }
 
 
