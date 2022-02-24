@@ -8,12 +8,12 @@ function About() {
   return (
     <div className='about-env'>
       <Navbar />
-      <div id='about' className="about-main-container">
+      <div id='about' className="about-main-container m-0">
         <section className="w-100 p-0 mb-5">
-          <div className="row m-0" id="shadow">
+          <div className="row m-0 position-relative justify-content-center align-items-center" id="shadow">
             <img src={AboutMain} className="about-main-img p-0" alt="about-main"></img>
             <br />
-            <h2 className="top-left text-white">About Us</h2>
+            <h2 className="text-center text-md-start p-0 ps-md-5 top-left text-white header-text-lg">About Us</h2>
           </div>
         </section>
         <BioCards02 />

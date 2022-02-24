@@ -16,14 +16,14 @@ function Contact() {
     <div className="contact-env">
       <Navbar />
       <section id="contact">
-        <div className="row contact-main-container m-0" id="shadow">
+        <div className="row contact-main-container m-0 justify-content-center align-items-center" id="shadow">
           <img
             src={ContactMain}
             className="contact-main-img p-0"
             alt="contact-main"
           ></img>
           <br />
-          <h2 className="top-left text-white">Contact Us</h2>
+          <h2 className="text-center text-white text-md-start p-0 ps-md-5 top-left header-text-lg">Contact Us</h2>
         </div>
         <div className="container">
           <div className="row">
