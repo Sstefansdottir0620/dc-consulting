@@ -14,7 +14,6 @@ import MountPleasant from "../images/mountpleasant-logo.png";
 import RoyCity from "../images/roycity-logo.png";
 import CowTX from "../images/cowtexas-logo.png";
 import GovResource from "../images/govresource-logo.png";
-import HR from "../images/HR-photo.png";
 
 function Services() {
   return (
