@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import Navbar from "../components/Navbar";
 import BioCardsHome from "../components/BioCardsHome";
-import HomeMain2 from "../images/home-main-image2.png";
+import HomeMain3 from "../images/home-main-image3.png";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -12,11 +12,13 @@ function Home() {
       <Navbar />
       <div className="row m-0 justify-content-center">
         <section className="w-100 p-0">
-          <div className="row home-main-container m-0 justify-content-center align-items-center" id="shadow">
-            <img src={HomeMain2} alt="home-main" className="p-0"></img>
+          <div
+            className="row home-main-container m-0 justify-content-center align-items-center"
+            id="shadow"
+          >
+            <img src={HomeMain3} alt="home-main" className="p-0"></img>
             <h2 className="text-center text-md-start p-0 ps-md-5 top-left text-white w-100 header-text">
-              Your people, your process, <br></br>your strategies, your
-              synergies…
+              Every city has a story.<br></br>Let DCMC help you write it.
             </h2>
           </div>
         </section>
@@ -33,15 +35,16 @@ function Home() {
               Your people, your process, your strategies, your synergies… Your
               city is more than a collection of streets and buildings. It’s a
               rich set of collaborations and relationships focused on making a
-              community a better place.<br/><br/>Let DC Municipal Consulting’s 40 years
-              of combined experience in municipal government and consulting in
-              human resource management, executive recruitment, compensation and
-              pay plan development, and policy development help your city
-              achieve its goals.
+              community a better place.
+              <br />
+              <br />
+              Let DC Municipal Consulting’s 40 years of combined experience in
+              municipal government and consulting in human resource management,
+              executive recruitment, compensation and pay plan development, and
+              policy development help your city achieve its goals.
             </p>
 
             <BioCardsHome />
-            
           </section>
         </div>
         <Header />

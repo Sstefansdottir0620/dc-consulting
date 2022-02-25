@@ -20,7 +20,7 @@ export class Footer extends Component {
                 </a>
               </div>
               <div className="col-md-5 py-md-5 pb-3 py-2">
-                <p className="text-right copyright m-0">Every city has a story. Let DCMC help you write it.</p>
+                <p className="text-right copyright m-0 text-md-end">Every city has a story. Let DCMC help you write it.</p>
               </div>
             </div>
             <div className='row justify-content-center'>

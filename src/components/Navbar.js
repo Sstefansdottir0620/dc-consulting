@@ -19,7 +19,7 @@ export class Navbar extends Component {
         </div>
         <nav className='row navbar navbar-expand-lg navbar-light justify-content-between m-0 px-0 px-md-4'
         style={{backgroundColor: "#ffffff" }}>
-          <div className='col-md-3 text-center text-md-start'>
+          <div className='col-md-3 text-center text-md-start ps-0 ps-md-5'>
             <a className='navbar-brand' href='/'>
               <img
                 src={DClogo}

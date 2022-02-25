@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import HomeMain from "../images/home-main-image.png";
+import HomeMain2 from "../images/home-main-image2.png";
 import Abilene from "../images/abilene-logo.png";
 import BalchSprings from "../images/balchsprings-logo.png";
 import Fate from "../images/fate-logo.png";
@@ -10,6 +10,10 @@ import Heath from "../images/heath-logo.png";
 import Josephine from "../images/josephine-logo.png";
 import LittleElm from "../images/elm-logo.png";
 import Melissa from "../images/melissa.png";
+import MountPleasant from "../images/mountpleasant-logo.png";
+import RoyCity from "../images/roycity-logo.png";
+import CowTX from "../images/cowtexas-logo.png";
+import GovResource from "../images/govresource-logo.png";
 import HR from "../images/HR-photo.png";
 
 function Services() {
@@ -18,71 +22,223 @@ function Services() {
       <Navbar />
       <div id="services" className="service-main-container">
         <section className="w-100">
-          <div className="row m-0 position-relative justify-content-center align-items-center" id='shadow'>
-            <img src={HomeMain} className="home-main-img" alt="service-main"></img>
+          <div
+            className="row m-0 position-relative justify-content-center align-items-center"
+            id="shadow"
+          >
+            <img
+              src={HomeMain2}
+              className="home-main-img p-0"
+              alt="service-main"
+            ></img>
             <br />
-            <h2 className="text-center text-md-start p-0 ps-md-5 top-left header-text-lg blue">Clients and Services</h2>
-            </div>
-            <div className='container justify-content-center'>
-            <section className='row mb-5 mt-5 body-text'>
-                <p>
-                DC Municipal Consulting (DCMC) was formed in August of 2017 as a women-owned firm specializing in consulting for local governments. DCMC has completed projects focusing on human resource management, executive recruitment, compensation and pay plan development, and policy development.
-                </p>
-            </section>
-            
-          <div className="container mb-5">
-            <div className='row mt-5 px-5 justify-content-center'>
-              <div className='col city-logo'><a href='https://www.abilenetx.gov' target='blank'><img src={Abilene} alt="abileneLogo"/></a></div>
-              <div className='col city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={BalchSprings} alt="balchLogo"/></a></div>
-              <div className='col city-logo'><a href='https://www.fatetx.gov' target='blank'><img src={Fate} alt="fateLogo"/></a></div>
-              <div className='col city-logo'><a href='https://www.forneytx.gov' target='blank'><img src={Forny} alt="fornyLogo"/></a></div>
-              <div className='col city-logo'><a href='http://www.heathtx.com' target='blank'><img src={Heath} alt="heathLogo"></img></a></div>
-              <div className='col city-logo'><a href='https://www.cityofjosephinetx.com' target='blank'><img src={Josephine} alt="josephineLogo"></img></a></div>
-              <div className='col city-logo'><a href='https://www.littleelm.org' target='blank'><img src={LittleElm} alt="littleElm"></img></a></div>
-              <div className='col city-logo'><a href='https://https://www.cityofbalchsprings.com' target='blank'><img src={Melissa} alt="melissaLogo"></img></a></div>
-            </div>
+            <h2 className="text-center text-md-start p-0 ps-md-5 top-left header-text-lg text-white">
+              Clients and Services
+            </h2>
           </div>
-            <div className="row mt-2 justify-content-between">
+          <div className="container justify-content-center">
+            <section className="row mb-5 mt-5 body-text ">
+              <p>
+                DC Municipal Consulting <b>(DCMC)</b> was formed in August of
+                2017 as a women-owned firm specializing in consulting for local
+                governments. DCMC has completed projects focusing on{" "}
+                <b>Human Resource Management</b>, <b>Executive Recruitment</b>,{" "}
+                <b>Compensation and Pay Plan Development</b>, and{" "}
+                <b>Policy Development</b>.
+              </p>
+            </section>
+
+            <div className="container mb-5">
+              <div className="row mt-5 px-5 justify-content-center">
+                <div className="col city-logo">
+                  <a href="https://www.abilenetx.gov" target="blank">
+                    <img src={Abilene} alt="abileneLogo" />
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a
+                    href="https://https://www.cityofbalchsprings.com"
+                    target="blank"
+                  >
+                    <img src={BalchSprings} alt="balchLogo" />
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.fatetx.gov" target="blank">
+                    <img src={Fate} alt="fateLogo" />
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.forneytx.gov" target="blank">
+                    <img src={Forny} alt="fornyLogo" />
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="http://www.heathtx.com" target="blank">
+                    <img src={Heath} alt="heathLogo"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.cityofjosephinetx.com" target="blank">
+                    <img src={Josephine} alt="josephineLogo"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.littleelm.org" target="blank">
+                    <img src={LittleElm} alt="littleElm"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.cityofmelissa.com/" target="blank">
+                    <img src={Melissa} alt="melissaLogo"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://mpcity.net/" target="blank">
+                    <img src={MountPleasant} alt="mountPleasant"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://roysecity.com/" target="blank">
+                    <img src={RoyCity} alt="RoyCity"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.cowtx.org/" target="blank">
+                    <img src={CowTX} alt="CowTexas"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.governmentresource.com/" target="blank">
+                    <img src={GovResource} alt="govResource"></img>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="row mt-2 justify-content-between service-row">
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col">
-                    <img src={HR} alt="HumanResources"></img>
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0">
+                      <h1 className="text-white m-0">Compensation/Pay Plan Review and Market Analysis</h1>
+                    </div>
+                    <ul>
+                      <li>City of Fate, Texas</li>
+                      <li>City of Forney, Texas</li>
+                      <li>City of Heath, Texas</li>
+                      <li>City of Melissa, Texas (2019 and 2021)</li>
+                      <li>City of Mount Pleasant, Texas</li>
+                      <li>City of Royse City, Texas</li>
+                    </ul>
                   </div>
                 </div>
-                <div className="row margin justify-content-center">
-                  <h1>Human Resource Management</h1>
-                  <p>Here is the description!</p>
+              </div>
+              <div className="col-sm-4 m-0">
+                <div className="row justify-content-center">
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0">
+                      <h1 className='text-white'>Executive Recruitment</h1>
+                    </div>
+                    <ul>
+                      <li>City of Josephine, Texas - City Administrator</li>
+                      <li>
+                        City of Mount Pleasant, Texas -Police Chief, Building
+                        Official, Public Works Director/City Engineer, Parks
+                        Director, and Planner
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-              <div className="col-sm-4">
+              <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <img src="place-holder" alt="HumanResources"></img>
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0">
+                      <h1 className='text-white'>Hiring Policy Development and Training</h1>
+                    </div>
+                    <ul>
+                      <li>Little Elm, Texas</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="row justify-content-center">Description of service</div>
               </div>
-              <div className="col-sm-4 margin">
+              <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <img src="place-holder" alt="HumanResources"></img>
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0">
+                      <h1 className='text-white'>
+                      360 Performance Review Survey Tool Creation and
+                      Administration
+                      </h1>
+                    </div>
+                    <ul>
+                      <li>Little Elm, Texas</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="row justify-content-center">Description of service</div>
               </div>
-              <div className="col-sm-4 margin">
+              <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <img src="place-holder" alt="HumanResources"></img>
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0">
+                      <h1 className='text-white'>Grant Writing</h1>
+                    </div>
+                    <ul>
+                      <li>City of Heath, Texas</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="row justify-content-center">Description of service</div>
               </div>
-              <div className="col-sm-4 margin">
+              <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <img src="place-holder" alt="HumanResources"></img>
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0">
+                      <h1 className='text-white'>Job Description Development</h1>
+                    </div>
+                    <ul>
+                      <li>City of Heath, Texas</li>
+                      <li>City of Mount Pleasant, Texas</li>
+                      <li>Strategic Government Resources (SGR)</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="row justify-content-center">Description of service</div>
               </div>
-              <div className="col-sm-4 margin">
+              <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <img src="place-holder" alt="HumanResources"></img>
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0">
+                      <h1 className='text-white'>Performance Evaluation Tool Development</h1>
+                    </div>
+                    <ul>
+                      <li>City of Mount Pleasant, Texas</li>
+                      <li>SGR (in progress)</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="row justify-content-center">Description of service</div>
+              </div>
+              <div className="col-sm-4 m-0">
+                <div className="row justify-content-center">
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0"> 
+                      <h1 className='text-white'>Personnel Policy and Procedures Manual Rewrite</h1>
+                    </div>
+                    <ul>
+                      <li>City of Abilene, Texas</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-4 m-0">
+                <div className="row justify-content-center">
+                  <div className="col text-center">
+                    <div className="row background align-items-center m-0">
+                      <h1 className='text-white'>Purchasing Policy Training Development and Presentation</h1>
+                    </div>
+                    <ul>
+                      <li>City of Abilene, Texas</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

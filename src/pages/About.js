@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import BioCards02 from "../components/BioCards02";
+import BioCards from "../components/BioCards";
 import AboutMain from "../images/about-main-image.png";
 
 function About() {
@@ -16,7 +16,7 @@ function About() {
             <h2 className="text-center text-md-start p-0 ps-md-5 top-left text-white header-text-lg">About Us</h2>
           </div>
         </section>
-        <BioCards02 />
+        <BioCards />
       </div>
       <Footer />
     </div>
