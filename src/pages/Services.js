@@ -117,7 +117,7 @@ function Services() {
             <div className="row mt-2 justify-content-between service-row">
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className="text-white m-0">Compensation/Pay Plan Review and Market Analysis</h1>
                     </div>
@@ -134,7 +134,7 @@ function Services() {
               </div>
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className='text-white'>Executive Recruitment</h1>
                     </div>
@@ -151,7 +151,7 @@ function Services() {
               </div>
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className='text-white'>Hiring Policy Development and Training</h1>
                     </div>
@@ -163,7 +163,7 @@ function Services() {
               </div>
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className='text-white'>
                       360 Performance Review Survey Tool Creation and
@@ -178,7 +178,7 @@ function Services() {
               </div>
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className='text-white'>Grant Writing</h1>
                     </div>
@@ -190,7 +190,7 @@ function Services() {
               </div>
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className='text-white'>Job Description Development</h1>
                     </div>
@@ -204,7 +204,7 @@ function Services() {
               </div>
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className='text-white'>Performance Evaluation Tool Development</h1>
                     </div>
@@ -217,7 +217,7 @@ function Services() {
               </div>
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0"> 
                       <h1 className='text-white'>Personnel Policy and Procedures Manual Rewrite</h1>
                     </div>
@@ -229,7 +229,7 @@ function Services() {
               </div>
               <div className="col-sm-4 m-0">
                 <div className="row justify-content-center">
-                  <div className="col text-center">
+                  <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className='text-white'>Purchasing Policy Training Development and Presentation</h1>
                     </div>
