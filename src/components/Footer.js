@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DClogoWhite from "../images/DC logo - Web-White.svg";
+import DClogoWhite from "../images/DC logo - Web-White.png";
 // import copyright from "../images/copyright.png";
 
 export class Footer extends Component {

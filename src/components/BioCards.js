@@ -18,13 +18,12 @@ class BioCards extends Component {
                   project experiences included federal grant writing for housing
                   and economic development projects as an independent contractor
                   and executive level recruitment for a national executive
-                  search firm.
-                  <p>As a recruiter, she worked directly with
+                  search firm. As a recruiter, she worked directly with
                   governing bodies, professional staff, and prospective
                   executives to match the right candidate with the right
                   opportunity. Molly successfully placed over 50 executives in
                   25 Texas communities during her four- year tenure as a
-                  recruiter.</p>
+                  recruiter.<br></br>
                   <p>Molly previously served as Assistant City
                   Administrator for the City of Lenexa Kansas; Senior Budget
                   Analyst for the Office of Budget and Planning, District of
@@ -74,7 +73,7 @@ class BioCards extends Component {
                   budgets, and developed strategic planning. Katie also held
                   management positions for the communities of Sedona, Arizona,
                   and Olathe, Kansas.</p>
-                  <p className="card-text">A graduate of Leadership ICMA and the
+                  <p >A graduate of Leadership ICMA and the
                   Senior Executive Institute at the University of Virginia,
                   Katie holds a Bachelor of Business Administration degree from
                   the University of Tulsa and a Master of Public Administration
