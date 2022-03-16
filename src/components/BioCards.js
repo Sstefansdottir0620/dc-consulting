@@ -23,18 +23,18 @@ class BioCards extends Component {
                   executives to match the right candidate with the right
                   opportunity. Molly successfully placed over 50 executives in
                   25 Texas communities during her four- year tenure as a
-                  recruiter.<br></br>
-                  <p>Molly previously served as Assistant City
+                  recruiter.</p>
+                  <p className="card-text">Molly previously served as Assistant City
                   Administrator for the City of Lenexa Kansas; Senior Budget
                   Analyst for the Office of Budget and Planning, District of
                   Columbia Government in Washington, D.C.; and Project
                   Manager/Public Policy Analyst for the National Hispanic
                   Housing Council in Washington, D.C.</p>
-                  <p>During her nine years with
+                  <p className="card-text">During her nine years with
                   the City of Lenexa, Molly oversaw government affairs, economic
                   development, neighborhood revitalization, municipal courts and
                   social services relations.</p>
-                  <p></p>Molly has a Master of Public
+                  <p className="card-text">Molly has a Master of Public
                   Administration degree from The George Washington University
                   and a Bachelor of Arts degree from the University of
                   Wisconsin-La Crosse. She also attended the Senior Executive
@@ -73,7 +73,7 @@ class BioCards extends Component {
                   budgets, and developed strategic planning. Katie also held
                   management positions for the communities of Sedona, Arizona,
                   and Olathe, Kansas.</p>
-                  <p >A graduate of Leadership ICMA and the
+                  <p className="card-text">A graduate of Leadership ICMA and the
                   Senior Executive Institute at the University of Virginia,
                   Katie holds a Bachelor of Business Administration degree from
                   the University of Tulsa and a Master of Public Administration
