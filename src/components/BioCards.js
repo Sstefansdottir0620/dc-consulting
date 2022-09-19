@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import katie01 from "../images/katie01.jpg";
-import molly02 from "../images/molly02.jpg";
+import katie from "../images/katie.jpg";
+import molly from "../images/molly.jpg";
 
 class BioCards extends Component {
   render() {
     return (
       <div className="container">
         <div className="row justify-content-between my-5">
-            <div className="col-md-6">
-                <img src={molly02} className="card-img-top py-3 py-md-0" alt="Molly Deckert" />
+            <div className="col-md-4">
+                <img src={molly} className="card-img-top py-3 py-md-0" alt="Molly Deckert" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-8">
                 <h5>Molly Deckert, Partner</h5>
                 <p className="card-text">
                   Molly Deckert has provided consulting services to
@@ -43,14 +43,14 @@ class BioCards extends Component {
             </div>
         </div>
         <div className="row mb-5">
-            <div className="col-md-6">
+            <div className="col-md-4">
               <img
-                src={katie01}
+                src={katie}
                 className="card-img-top py-3 py-md-0"
                 alt="Katie Corder"
               />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-8">
                 <h5>Katie Corder, Partner</h5>
                 <p className="card-text">
                   For the past twelve years, Katie has been engaged in municipal

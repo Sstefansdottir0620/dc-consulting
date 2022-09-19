@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Profile01 from "../images/profile01.jpg";
-import Profile02 from "../images/profile02.jpg";
+import Profile01 from "../images/molly01.jpg";
+import Profile02 from "../images/katie02.jpg";
 
 class BioCardsHome extends Component {
   render() {
