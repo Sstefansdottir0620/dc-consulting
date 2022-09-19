@@ -122,14 +122,14 @@ function Services() {
                       <h1 className="text-white m-0">Compensation/Pay Plan Review and Market Analysis</h1>
                     </div>
                     <ul>
+                    <li>City of Balch Springs, Texas</li>
                       <li>City of Fate, Texas</li>
                       <li>City of Forney, Texas</li>
                       <li>City of Heath, Texas</li>
+                      <li>City of Josephine, Texas</li>
                       <li>City of Melissa, Texas (2019 and 2021)</li>
                       <li>City of Mount Pleasant, Texas</li>
                       <li>City of Royse City, Texas</li>
-                      <li>City of Balch Springs, Texas</li>
-                      <li>City of Josephine, Texas</li>
                       <li>City of Watauga, Texas</li>
                     </ul>
                   </div>
