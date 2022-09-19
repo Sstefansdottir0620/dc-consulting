@@ -128,6 +128,9 @@ function Services() {
                       <li>City of Melissa, Texas (2019 and 2021)</li>
                       <li>City of Mount Pleasant, Texas</li>
                       <li>City of Royse City, Texas</li>
+                      <li>City of Balch Springs, Texas</li>
+                      <li>City of Josephine, Texas</li>
+                      <li>City of Watauga, Texas</li>
                     </ul>
                   </div>
                 </div>
@@ -210,7 +213,7 @@ function Services() {
                     </div>
                     <ul>
                       <li>City of Mount Pleasant, Texas</li>
-                      <li>SGR (in progress)</li>
+                      <li>SGR</li>
                     </ul>
                   </div>
                 </div>

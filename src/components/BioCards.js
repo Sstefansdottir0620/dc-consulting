@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Profile01 from "../images/profile01.jpg";
-import Profile02 from "../images/profile02.jpg";
+import katie01 from "../images/katie01.jpg";
+import molly02 from "../images/molly02.jpg";
 
 class BioCards extends Component {
   render() {
@@ -8,13 +8,13 @@ class BioCards extends Component {
       <div className="container">
         <div className="row justify-content-between my-5">
             <div className="col-md-6">
-                <img src={Profile01} className="card-img-top py-3 py-md-0" alt="Molly Deckert" />
+                <img src={molly02} className="card-img-top py-3 py-md-0" alt="Molly Deckert" />
             </div>
             <div className="col-md-6">
                 <h5>Molly Deckert, Partner</h5>
                 <p className="card-text">
                   Molly Deckert has provided consulting services to
-                  municipalities for ten years. Prior to forming <b>DCMC</b>, her key
+                  municipalities for twelve years. Prior to forming <b>DCMC</b>, her key
                   project experiences included federal grant writing for housing
                   and economic development projects as an independent contractor
                   and executive level recruitment for a national executive
@@ -45,7 +45,7 @@ class BioCards extends Component {
         <div className="row mb-5">
             <div className="col-md-6">
               <img
-                src={Profile02}
+                src={katie01}
                 className="card-img-top py-3 py-md-0"
                 alt="Katie Corder"
               />
@@ -53,7 +53,7 @@ class BioCards extends Component {
             <div className="col-md-6">
                 <h5>Katie Corder, Partner</h5>
                 <p className="card-text">
-                  For the past ten years, Katie has been engaged in municipal
+                  For the past twelve years, Katie has been engaged in municipal
                   consulting. Her professional project experience includes
                   executive recruitment, citizen surveys, grant writing,
                   community award applications, curriculum writing for employee
