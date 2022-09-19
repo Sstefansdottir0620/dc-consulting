@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Profile01 from "../images/molly01.jpg";
-import Profile02 from "../images/katie01.jpg";
+import Molly01 from "../images/molly01.jpg";
+import Katie01 from "../images/katie01.jpg";
 
 class BioCardsHome extends Component {
   render() {
@@ -12,7 +12,7 @@ class BioCardsHome extends Component {
           <div className='col ml-4'>
             <div class='card p-4'>
               <img
-                src={Profile01}
+                src={Molly01}
                 className='card-img-top'
                 alt='Molly Deckert'
               />
@@ -29,7 +29,7 @@ class BioCardsHome extends Component {
           <div className='col ml-4'>
             <div className='card p-4'>
               <img
-                src={Profile02}
+                src={Katie01}
                 className='card-img-top'
                 alt='Katie Corder'
               />
