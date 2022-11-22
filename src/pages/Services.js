@@ -14,6 +14,7 @@ import MountPleasant from "../images/mountpleasant-logo.png";
 import RoyCity from "../images/roycity-logo.png";
 import CowTX from "../images/cowtexas-logo.png";
 import GovResource from "../images/govresource-logo.png";
+import CityAledo from "../images/cityaledo - logo.png";
 
 function Services() {
   return (
@@ -112,6 +113,11 @@ function Services() {
                     <img src={GovResource} alt="govResource"></img>
                   </a>
                 </div>
+                <div className="col city-logo">
+                  <a href="https://www.aledotx.gov/" target="blank">
+                    <img src={CityAledo} alt="cityAledo"></img>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="row mt-2 justify-content-between service-row">
@@ -156,10 +162,12 @@ function Services() {
                 <div className="row justify-content-center">
                   <div className="col text-left">
                     <div className="row background align-items-center m-0">
-                      <h1 className='text-white'>Hiring Policy Development and Training</h1>
+                      <h1 className='text-white'>Performance Evaluation Tool Development</h1>
                     </div>
                     <ul>
-                      <li>Little Elm, Texas</li>
+                      <li>Town of Little Elm, Texas (360 Performance Review Survey Tool Creation and Administration</li>
+                      <li>City of MountPleasant, Texas</li>
+                      <li>Strategic Government Resources (SGR)</li>
                     </ul>
                   </div>
                 </div>
@@ -169,24 +177,12 @@ function Services() {
                   <div className="col text-left">
                     <div className="row background align-items-center m-0">
                       <h1 className='text-white'>
-                      360 Performance Review Survey Tool Creation and
-                      Administration
+                      Policy and Procedures Development
                       </h1>
                     </div>
                     <ul>
-                      <li>Little Elm, Texas</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 m-0">
-                <div className="row justify-content-center">
-                  <div className="col text-left">
-                    <div className="row background align-items-center m-0">
-                      <h1 className='text-white'>Grant Writing</h1>
-                    </div>
-                    <ul>
-                      <li>City of Heath, Texas</li>
+                      <li>City of Abiline, Texas (Personnel Manual Rewrite and Purchasing Policy Training)</li>
+                      <li>Town of Little Elm, Texas (Hiring Policy Development and Training)</li>
                     </ul>
                   </div>
                 </div>
@@ -198,6 +194,7 @@ function Services() {
                       <h1 className='text-white'>Job Description Development</h1>
                     </div>
                     <ul>
+                      <li>City of Aledo, Texas (in progress)</li>
                       <li>City of Heath, Texas</li>
                       <li>City of Mount Pleasant, Texas</li>
                       <li>Strategic Government Resources (SGR)</li>
@@ -209,35 +206,11 @@ function Services() {
                 <div className="row justify-content-center">
                   <div className="col text-left">
                     <div className="row background align-items-center m-0">
-                      <h1 className='text-white'>Performance Evaluation Tool Development</h1>
+                      <h1 className='text-white'>Other Projects</h1>
                     </div>
                     <ul>
-                      <li>City of Mount Pleasant, Texas</li>
-                      <li>SGR</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 m-0">
-                <div className="row justify-content-center">
-                  <div className="col text-left">
-                    <div className="row background align-items-center m-0"> 
-                      <h1 className='text-white'>Personnel Policy and Procedures Manual Rewrite</h1>
-                    </div>
-                    <ul>
-                      <li>City of Abilene, Texas</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 m-0">
-                <div className="row justify-content-center">
-                  <div className="col text-left">
-                    <div className="row background align-items-center m-0">
-                      <h1 className='text-white'>Purchasing Policy Training Development and Presentation</h1>
-                    </div>
-                    <ul>
-                      <li>City of Abilene, Texas</li>
+                      <li>City of Aledo, Texas (Organizational Assessment - in progress)</li>
+                      <li>City of Heath, Texas (Grant Writing)</li>
                     </ul>
                   </div>
                 </div>
