@@ -9,7 +9,7 @@ function PopUp({trigger, triggerSet}) {
         <div className="popup-inner">
             <div className="row d-flex justify-content-center">
                 <div className="col-sm-4 p-0">
-                    <img src={popupImage} alt="popupImage" className='popup-image' onClick={() => window.location.href = "https://google.com"}></img>
+                    <img src={popupImage} alt="popupImage" className='popup-image' onClick={() => window.location.href = "https://www.aledotx.gov/"}></img>
                 </div>
                 <div className="col-sm-4 popup-right p-5 p-sm-2">
                     <div className="row d-flex justify-content-center h-100">
@@ -26,6 +26,7 @@ function PopUp({trigger, triggerSet}) {
                     recruiting@dcmunicipalconsulting.com
                   </a>
                 </p>
+                <h1>For more information please click on the link below</h1>
                 <div className="col city-logo">
                   <a href="https://www.aledotx.gov/human-resources" target="blank">
                     <img src={CityAledo} alt="cityAledo"></img>
