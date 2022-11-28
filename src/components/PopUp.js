@@ -35,11 +35,10 @@ function PopUp({trigger, triggerSet}) {
                     <img src={pdfAledo} alt="pdfAledo"></img>
                   </a>
                 </div>
-                <div className="col city-logo">
-                  <a href="https://www.aledotx.gov/" target="blank">
-                    <img src={CityAledo} alt="cityAledo"></img>
+                <p className="col pop-up-link-style">
+                  <a href="https://www.aledotx.gov/" target="_blank">www.aledotx.gov
                   </a>
-                </div>
+                </p>
                 
                                 <button className="close-btn" onClick={() => triggerSet(false)}>close</button>
                             </div>
