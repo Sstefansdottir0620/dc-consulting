@@ -20,7 +20,7 @@ function PopUp({trigger, triggerSet}) {
                                 <h1>To apply, please send a cover letter and resume to</h1>
                 <p className="fa fa-comment">
                   <a
-                    className="link-style contact-info"
+                    className="pop-up-link-style contact-info"
                     href="mailto:info@dcmunicipalconsulting.com"
                     target="_blank"
                     rel="noreferrer"
@@ -31,14 +31,18 @@ function PopUp({trigger, triggerSet}) {
                 <h1>For more information please click on the link below</h1>
 
                 <div className="col city-logo">
-                  <a href="https://drive.google.com/file/d/1LNYMpeeq31Eh95Av3DQ9ZCQiEBybRTax/view?usp=share_link" target="blank">
-                    <img src={pdfAledo} alt="pdfAledo"></img>
+                <p className="fa fa-comment">
+                    
+                  <a 
+                  className="pop-up-link-style"
+                  target="blank"
+                  href="https://drive.google.com/file/d/1LNYMpeeq31Eh95Av3DQ9ZCQiEBybRTax/view?usp=share_link">
+                    <img className='pdf' src={pdfAledo} alt="pdfAledo"></img>
+                    Position Summary
                   </a>
+                  </p>
                 </div>
-                <p className="col pop-up-link-style">
-                  <a href="https://www.aledotx.gov/" target="_blank">www.aledotx.gov
-                  </a>
-                </p>
+    
                 
                                 <button className="close-btn" onClick={() => triggerSet(false)}>close</button>
                             </div>
