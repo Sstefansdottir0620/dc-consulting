@@ -31,7 +31,7 @@ function PopUp({trigger, triggerSet}) {
                 <h1>For more information please click on the link below</h1>
 
                 <div className="col city-logo">
-                  <a href="https://www.aledotx.gov/" target="blank">
+                  <a href="https://drive.google.com/file/d/1LNYMpeeq31Eh95Av3DQ9ZCQiEBybRTax/view?usp=share_link" target="blank">
                     <img src={pdfAledo} alt="pdfAledo"></img>
                   </a>
                 </div>
