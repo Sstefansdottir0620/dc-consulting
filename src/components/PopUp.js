@@ -28,7 +28,7 @@ function PopUp({trigger, triggerSet}) {
                     recruiting@dcmunicipalconsulting.com
                   </a>
                 </p>
-                <h1>For more information please click on the link below</h1>
+                <h1>For more information please click on the position summary below</h1>
 
                 <div className="col city-logo">
                 <p className="fa fa-comment">
