@@ -1,6 +1,5 @@
 import React from 'react'
 import popupImage from "../images/popupImage.png";
-import CityAledo from "../images/cityaledo - logo.png";
 import pdfAledo from "../images/pdfAledo.png";
 
 import '../PopUp.css'
