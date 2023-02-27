@@ -35,7 +35,7 @@ function PopUp({trigger, triggerSet}) {
                   <a 
                   className="pop-up-link-style"
                   target="blank"
-                  href="https://drive.google.com/file/d/1LNYMpeeq31Eh95Av3DQ9ZCQiEBybRTax/view?usp=share_link">
+                  href=" https://drive.google.com/file/d/1VvHGoIntRgzqPGyKAuPoETxWZY4LI0FN/view?usp=sharing">
                     <img className='pdf' src={pdfAledo} alt="pdfAledo"></img>
                     Position Summary
                   </a>
