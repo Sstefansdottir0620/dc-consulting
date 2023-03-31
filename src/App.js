@@ -5,7 +5,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Clients from "./pages/Clients";
 import Services from "./pages/Services";
-import PopUp from "./components/PopUp";
+//import PopUp from "./components/PopUp";
 import { useState } from "react";
 import "./App.css";
 
@@ -20,9 +20,9 @@ function App() {
   
   return (
     <>
-    <PopUp trigger={timedPopUp} triggerSet={setTimedPopUp}>
+    {/* <PopUp trigger={timedPopUp} triggerSet={setTimedPopUp}>
       <p>This is my triggered popup</p> 
-    </PopUp>
+    </PopUp> */}
     <Router>
     <div className="route-env">
       <Switch>
