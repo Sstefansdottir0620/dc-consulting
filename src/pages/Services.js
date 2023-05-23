@@ -117,17 +117,17 @@ function Services() {
                   </a>
                 </div>
                 <div className="col city-logo">
-                  <a href="https://www.wilmer.gov/" target="blank">
+                  <a href="https://www.cityofwilmer.net/" target="blank">
                     <img src={CityWilmer} alt="cityWilmer"></img>
                   </a>
                 </div>
                 <div className="col city-logo">
-                  <a href="https://www.athens.gov/" target="blank">
+                  <a href="https://www.athenstx.gov/" target="blank">
                     <img src={CityAthens} alt="cityAthens"></img>
                   </a>
                 </div>
                 <div className="col city-logo">
-                  <a href="https://www.seagoville.gov/" target="blank">
+                  <a href="https://www.seagoville.us/" target="blank">
                     <img src={CitySeagoville} alt="citySeagoville"></img>
                   </a>
                 </div>
