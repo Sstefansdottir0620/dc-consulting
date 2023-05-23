@@ -14,7 +14,10 @@ import MountPleasant from "../images/mountpleasant-logo.png";
 import RoyCity from "../images/roycity-logo.png";
 import CowTX from "../images/cowtexas-logo.png";
 import CityAledo from "../images/cityaledo - logo.png";
+import CityAthens from "../images/Athens-logo.png";
 import CityWilmer from "../images/CityWilmer-logo.png";
+import CitySeagoville from "../images/seagoville-logo.png";
+
 
 function Services() {
   return (
@@ -116,6 +119,16 @@ function Services() {
                 <div className="col city-logo">
                   <a href="https://www.wilmer.gov/" target="blank">
                     <img src={CityWilmer} alt="cityWilmer"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.athens.gov/" target="blank">
+                    <img src={CityAthens} alt="cityAthens"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.seagoville.gov/" target="blank">
+                    <img src={CitySeagoville} alt="citySeagoville"></img>
                   </a>
                 </div>
               </div>
