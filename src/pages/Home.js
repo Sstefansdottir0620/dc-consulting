@@ -38,7 +38,7 @@ function Home() {
               community a better place.
               <br />
               <br />
-              Let DC Municipal Consulting’s 40 years of combined experience in
+              Let DC Municipal Consulting's 40 years of combined experience in
               municipal government and consulting in human resource management,
               executive recruitment, compensation and pay plan development, and
               policy development help your city achieve its goals.
