@@ -14,6 +14,7 @@ import MountPleasant from "../images/mountpleasant-logo.png";
 import RoyCity from "../images/roycity-logo.png";
 import CowTX from "../images/cowtexas-logo.png";
 import CityAledo from "../images/cityaledo - logo.png";
+import CityWilmer from "../images/CityWilmer-logo.png";
 
 function Services() {
   return (
@@ -110,6 +111,11 @@ function Services() {
                 <div className="col city-logo">
                   <a href="https://www.aledotx.gov/" target="blank">
                     <img src={CityAledo} alt="cityAledo"></img>
+                  </a>
+                </div>
+                <div className="col city-logo">
+                  <a href="https://www.wilmer.gov/" target="blank">
+                    <img src={CityWilmer} alt="cityWilmer"></img>
                   </a>
                 </div>
               </div>
