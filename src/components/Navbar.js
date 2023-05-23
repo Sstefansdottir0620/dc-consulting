@@ -1,20 +1,18 @@
 import React, { Component } from "react";
 import DClogo from "../images/DC logo-Web.svg";
 import linkedIcon from "../images/linked-icon.svg";
-import faceIcon from "../images/facebook-icon.svg";
-import instaIcon from "../images/insta-icon.svg";
 
 export class Navbar extends Component {
   render() {
     return (
       <div>
         <div
-          className='row justify-content-md-end justify-content-center m-0'
+          className='row justify-content-md-end justify-content-center m-0 p-2'
           style={{ height: "50px", backgroundColor: "#0E3757" }}>
           <div className='social-icon d-flex align-items-center pr-md-5 pr-0'>
-            <img src={linkedIcon} width='30' height='30' alt='twitter' />
-            <img src={faceIcon} width='30' height='30' alt='facebook' />
-            <img src={instaIcon} width='30' height='30' alt='instagram' />
+          <a href="https://www.linkedin.com/company/dc-municipal-consulting/" target="blank">
+            <img src={linkedIcon} width='30' height='30' alt='linkedin' />
+            </a>
           </div>
         </div>
         <nav className='row navbar navbar-expand-lg navbar-light justify-content-between m-0 px-0 px-md-4'

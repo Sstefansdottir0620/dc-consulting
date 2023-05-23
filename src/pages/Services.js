@@ -13,7 +13,6 @@ import Melissa from "../images/melissa.png";
 import MountPleasant from "../images/mountpleasant-logo.png";
 import RoyCity from "../images/roycity-logo.png";
 import CowTX from "../images/cowtexas-logo.png";
-import GovResource from "../images/govresource-logo.png";
 import CityAledo from "../images/cityaledo - logo.png";
 
 function Services() {
@@ -109,11 +108,6 @@ function Services() {
                   </a>
                 </div>
                 <div className="col city-logo">
-                  <a href="https://www.governmentresource.com/" target="blank">
-                    <img src={GovResource} alt="govResource"></img>
-                  </a>
-                </div>
-                <div className="col city-logo">
                   <a href="https://www.aledotx.gov/" target="blank">
                     <img src={CityAledo} alt="cityAledo"></img>
                   </a>
@@ -128,6 +122,8 @@ function Services() {
                       <h1 className="text-white m-0">Compensation/Pay Plan Review and Market Analysis</h1>
                     </div>
                     <ul>
+                      <li>City of Aledo, Texas</li>
+                      <li>City of Athens, Texas</li>
                     <li>City of Balch Springs, Texas</li>
                       <li>City of Fate, Texas</li>
                       <li>City of Forney, Texas</li>
@@ -137,6 +133,7 @@ function Services() {
                       <li>City of Mount Pleasant, Texas</li>
                       <li>City of Royse City, Texas</li>
                       <li>City of Watauga, Texas</li>
+                      <li>City of Wilmer, Texas</li>
                     </ul>
                   </div>
                 </div>
@@ -148,12 +145,14 @@ function Services() {
                       <h1 className='text-white'>Executive Recruitment</h1>
                     </div>
                     <ul>
+                      <li>City of Aledo, Texas - Public Works Director</li>
                       <li>City of Josephine, Texas - City Administrator</li>
                       <li>
                         City of Mount Pleasant, Texas -Police Chief, Building
                         Official, Public Works Director/City Engineer, Parks
                         Director, and Planner
                       </li>
+                      <li>City of Seagoville, Texas - City Secretary (in progress)</li>
                     </ul>
                   </div>
                 </div>
@@ -181,7 +180,7 @@ function Services() {
                       </h1>
                     </div>
                     <ul>
-                      <li>City of Abiline, Texas (Personnel Manual Rewrite and Purchasing Policy Training)</li>
+                      <li>City of Abilene, Texas (Personnel Manual Rewrite and Purchasing Policy Training)</li>
                       <li>Town of Little Elm, Texas (Hiring Policy Development and Training)</li>
                     </ul>
                   </div>
@@ -194,7 +193,8 @@ function Services() {
                       <h1 className='text-white'>Job Description Development</h1>
                     </div>
                     <ul>
-                      <li>City of Aledo, Texas (in progress)</li>
+                      <li>City of Aledo, CowTexas</li>
+                      <li>City of Balch Springs, Texas</li>
                       <li>City of Heath, Texas</li>
                       <li>City of Mount Pleasant, Texas</li>
                       <li>Strategic Government Resources (SGR)</li>
@@ -209,7 +209,7 @@ function Services() {
                       <h1 className='text-white'>Other Projects</h1>
                     </div>
                     <ul>
-                      <li>City of Aledo, Texas (Organizational Assessment - in progress)</li>
+                      <li>City of Aledo, Texas (Organizational Assessment)</li>
                       <li>City of Heath, Texas (Grant Writing)</li>
                     </ul>
                   </div>
