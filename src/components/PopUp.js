@@ -1,6 +1,6 @@
 import React from 'react'
-import popupImage from "../images/popupImage.png";
-import pdfAledo from "../images/pdfAledo.png";
+import popupImage from "../images/Seagoville.png";
+import pdfSeagoville from "../images/pdfSeagoville.png";
 
 import '../PopUp.css'
 
@@ -10,7 +10,7 @@ function PopUp({trigger, triggerSet}) {
         <div className="popup-inner">
             <div className="row d-flex justify-content-center">
                 <div className="col-sm-4 p-0">
-                    <img src={popupImage} alt="popupImage" className='popup-image' onClick={() => window.location.href = "https://drive.google.com/file/d/1LNYMpeeq31Eh95Av3DQ9ZCQiEBybRTax/view?usp=share_link"}></img>
+                    <img src={popupImage} alt="popupImage" className='popup-image' onClick={() => window.location.href = "https://drive.google.com/file/d/1HiPLnkD-LNovvl42xG2F_4-SKUzvZBj7/view?usp=sharing"}></img>
                 </div>
                 <div className="col-sm-4 popup-right p-5 p-sm-2">
                     <div className="row d-flex justify-content-center h-100">
@@ -35,9 +35,9 @@ function PopUp({trigger, triggerSet}) {
                   <a 
                   className="pop-up-link-style"
                   target="blank"
-                  href=" https://drive.google.com/file/d/1VvHGoIntRgzqPGyKAuPoETxWZY4LI0FN/view?usp=sharing">
-                    <img className='pdf' src={pdfAledo} alt="pdfAledo"></img>
-                    Position Summary
+                  href="https://drive.google.com/file/d/1HiPLnkD-LNovvl42xG2F_4-SKUzvZBj7/view?usp=sharing">
+                    <img className='pdf' src={pdfSeagoville} alt="pdfSeagoville"></img>
+                    City Secretary- Seagoville
                   </a>
                   </p>
                 </div>
